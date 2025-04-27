@@ -1,0 +1,1 @@
+class HomeController < ApplicationController; def index; render json: { message: "Product Management API", endpoints: { products: "/api/products", product: "/api/products/:id" }, version: "1.0" }; end; end
